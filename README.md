@@ -1,5 +1,7 @@
 # WhatsApp
 
+18/11/2022
+
 ### ler aquivo Csv, e coloca-lo em um array:
 Utilizado fast-csv uma biblioteca JavaSript: https://c2fo.github.io/fast-csv/docs/introduction/install/
 
