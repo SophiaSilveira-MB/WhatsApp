@@ -1,3 +1,5 @@
+//Ler xlsx
+
 // install xlsx = npm install xlsx
 
 //talvez tenha que ser um import, caso precise https://www.npmjs.com/package/xlsx
@@ -27,7 +29,7 @@ for(let i = 0; i < sheets.length; i++){
 
 
 for(var i=0, len = data.length; i<len; i++) {
-    console.log(data[i]);
+    //console.log(data[i]);
 
     //mostra a informação x do elemento de número = i, com o "indice celecionado" - cabeçalho
     console.log(data[i].Perfil);

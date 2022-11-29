@@ -1,3 +1,5 @@
+//lER csv
+
 // install fast-cs: npm i -S fast-csv
 
 const fs = require("fs");
@@ -5,6 +7,7 @@ const fastCsv = require("fast-csv");
 
 const options = {
   //objectMode: true,
+  
   delimiter: ";",
   quote: null,
   headers: true,
@@ -26,7 +29,7 @@ fs.createReadStream("./arquivos/teste.csv")
     //console.log(rowCount);
 
     //mostra o array
-    //console.log(data);
+    console.log(data);
 
     ////mostra a informação x do elemento de número = i, com o "indice celecionado" - cabeçalho
     /*for(var i=0, len = rowCount; i<len; i++) {
